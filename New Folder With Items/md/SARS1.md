@@ -1,11 +1,13 @@
 # SARS1 2003 Patient/Fatality Information
 
 ## City of Index
+
     Goaudong, China
 
-## Table 1: SARS-CoV (SARS1, 2003-Pandemic Pathogen)
+## Table 1: SARS-CoV (SARS1, 2003 Pandemic Pathogen)
+
 Areas|Female|Male|Total|Median age (range)|No of deaths [^a] |Case fatality ratio (%)|Number of imported cases (%)|Number of HCW affected (%)|Date onset first probable case|Date onset last probable case
----|--- |--- |---- |--- |----|---- |---- |--- |--- |--- 
+---|--- |--- |---- |--- |----|---- |---- |--- |--- |---
 Australia|4|2|6|15 (1-45)|0|0|6 (100)|0 (0)|26-Feb-03|1-Apr-03
 Canada|151|100|251|49 (1-98)|43|17|5 (2)|109 (43)|23-Feb-03|12-Jun-03
 China|2674|2607|5327^b|Not available|349|7|Not Applicable|1002 (19)|16-Nov-02|3-Jun-03
@@ -48,10 +50,25 @@ Viet Nam|39|24|63|43 (20-76)|5|8|1 (2)|36 (57)|23-Feb-03|14-Apr-03
 ---
 
 ## Clinical Features of SARS-CoV Disease
+
 The median incubation period for SARS-CoV appears to be approximately 4 to 6 days; most patients become ill within 2 to 10 days after exposure. Early clinical features of SARS-CoV disease can be similar to other viral illnesses and are not sufficiently distinct to enable diagnosis by signs and symptoms alone. The illness usually begins with systemic symptoms such as fever, headache, and myalgias. Respiratory complaints often develop 2 to 7 days after illness onset and usually include a non-productive cough and dyspnea. Upper respiratory symptoms such as rhinorrhea and sore throat may occur but are uncommon. Almost all patients with laboratory evidence of SARS-CoV disease evaluated to date developed radiographic evidence of pneumonia by day 7-10 of illness, and most (70% -90%) developed lymphopenia. **The overall case-fatality rate of approximately 10% can increase to >50% in persons older than age 60.**
 
+!!!
+
+    The overall case-fatality rate of approximately 10% can increase to >50% in persons older than age 60.
+    [VIROLOGY Nov2021.ipynb]   
+
+```smiles
+
+CCC 
+
+C1C2C1C2
+
+```
+
 ### Key Clinical Features of SARS-CoV Disease
+
 - Incubation period of 2-10 days
 - Early systemic symptoms followed within 2-7 days by dry cough and/or shortness of breath, often without upper respiratory tract symptoms
 - Development of radiographically confirmed pneumonia by day 7-10 of illness
-- Lymphopenia in most cases
+- ++Lymphopenia++ in most cases

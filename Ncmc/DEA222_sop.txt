@@ -1,0 +1,11 @@
+### DEA222 STANDARD OPERATING PROCEDURE ###
+### ----------------------------------- ###
+
+RPh/POA Fills Facility Information
+CPhT Sells Controlled-Substance to Purchaser in C-II-Safe
+      INFORMATION NEEDED: Purchaser Name, Address
+      INFORMATION NEEDED: Purchaser DEA-Number
+CPhT Fills DEA222 Drug Name + Qty Information
+CPhT Makes Facimile of DEA222
+CPhT Fills NDC Information on DEA222 Original (Facimile is *not* to have NDC Information Included)
+Purchaser Recieves Facimile DEA222

@@ -1,0 +1,24 @@
+letter,three letter code,full name,R,Rank,mass: gly,composition,average mass,c,h,n,basic,Hydrophobic,Polar
+W,Trp,Tryptophan,,1 (rank),3.3x Gly,C11H10N2O,186.21,C11,H1,N2,,HP,
+Y,Tyr,Tyrosine,-Ph-OH,2 (rank),2.9x Gly,C9H9NO2,163.17,C9,H9,,,,P
+R,Arg,Arginine,,3 (rank),2.7x Gly,C6H12N4O,156.19,C6,H1,N4,B,,
+F,Phe,Phenylalanine,,4 (rank),2.6x Gly,C9H9NO,147.18,C9,H9,,,HP,
+H,His,Histidine,,5 (rank),2.4x Gly,C6H7N3O,137.14,C6,H7,N3,B,,
+M,Met,Methionine,,6 (rank),2.3x Gly,C5H9NOS,131.2,C5,H9,,,HP,
+E,Glu,Glutamic Acid,,7 (rank),2.3x Gly,C5H7NO3,129.12,C5,H7,,A,,
+K,Lys,Lysine,,8 (rank),2.2x Gly,C6H12N2O,128.17,C6,H1,N2,B,,
+Q,Gln,Glutamine,,9 (rank),2.2x Gly,C5H8N2O2,128.13,C5,H8,N2,,,
+D,Asp,Aspartic Acid,,10 (rank),2.0x Gly,C4H5NO3,115.09,C4,H5,,A,,
+N,Asn,Asparagine,-CH2-CONH2,11 (rank),2.0x Gly,C4H6N2O2,114.1,C4,H6,N2,,,
+I,Ile,Isoleucine,,12 (rank),2.0x Gly,C6H11NO,113.16,C6,H1,,,,
+L,Leu,Leucine,-C-C(C)C,12 (rank),2.0x Gly,C6H11NO,113.16,C6,H1,,,,
+C,Cys,Cysteine,,14 (rank),1.8x Gly,C3H5NOS,103.14,C3,H5,,,,
+T,Thr,Threonine,,15 (rank),1.8x Gly,C4H7NO2,101.11,C4,H7,,,,P
+V,Val,Valine,,16 (rank),1.7x Gly,C5H9NO,99.13,C5,H9,,,,
+P,Pro,Proline,,17 (rank),1.7x Gly,C5H7NO,97.12,C5,H7,,,,
+S,Ser,Serine,,18 (rank),1.5x Gly,C3H5NO2,87.08,C3,H5,,,,P
+A,Ala,Alanine,-Me,19 (rank),1.2x Gly,C3H5NO,71.08,C3,H5,,,,
+G,Gly,Glycine,-H,20 (rank),1.0x Gly,C2H3NO,57.05,C2,H3,,,HP,
+*,[*],Stop,,,,,,,,,,,
+X,[X],Unknown,,,,,,,,,,,
+ 

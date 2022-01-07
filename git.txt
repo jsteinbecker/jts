@@ -1,0 +1,16 @@
+git.txt
+
+Check Git Version
+      git --Version
+
+Config Name/email
+      git --config user.name "jsteinbecker"
+      git --config user.name "joshsteinbecker@icloud.com"
+
+      git config --global user.email "joshsteinbecker@icloud.com"
+      git config --global user.name "jsteinbecker"
+
+
+Initialize Repo
+      git init my-project-name
+

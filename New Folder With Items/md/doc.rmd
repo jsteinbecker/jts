@@ -1,0 +1,4 @@
+```{r}
+a <- "agttctactctatactcg"
+print(a)
+```

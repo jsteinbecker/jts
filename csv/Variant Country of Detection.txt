@@ -1,0 +1,6 @@
+Alpha       UK
+Beta        South Africa
+Gamma       Brazil
+Delta       India
+Mu          US (New York)
+Omicron     Botswana/ South Africa

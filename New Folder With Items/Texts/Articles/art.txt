@@ -1,0 +1,62 @@
+art.txt
+
+NEWS
+13 December 2021
+
+----------
+Merck’s COVID pill loses its lustre: what that means for the pandemic
+Molnupiravir was initially heralded by public-health officials as a game-changer for COVID-19, but full clinical-trial data showed lower-than-expected efficacy.
+----------
+
+Max Kozlov
+Twitter Facebook Email
+Merck and Ridgeback’s Molnupiravir pills, an oral COVID-19 antiviral medicine, on a table for display.
+Molnupiravir offers the possibility of treating people in areas where monoclonal antibodies cannot be easily administered.Credit: Mariusz Burcz/Alamy
+
+Molnupiravir, one of two antiviral pills that have caused excitement in the past few months because preliminary clinical-trial results showed that they can significantly reduce hospitalizations and deaths from COVID-19, has yet to receive an emergency use authorization from the US Food and Drug Administration (FDA). An FDA advisory committee met on 30 November, and narrowly voted to recommend the drug candidate’s emergency approval by 13 to 10.
+
+The agency's lengthy deliberations could signal uncertainties about the antiviral’s efficacy and safety: full trial data submitted to the FDA suggest that molnupiravir is less effective than originally thought, dampening scientists’ hopes that the relatively cheap and easy-to-administer treatment might change the course of the pandemic.
+
+
+COVID antiviral pills: what scientists still want to know
+The results, released ahead of the advisory committee meeting, showed that the antiviral, which was developed by the pharmaceutical firm Merck, based in Kenilworth, New Jersey, and the biotechnology company Ridgeback Biotherapeutics in Miami, Florida, decreased the risk of hospitalization from COVID-19 by 30% — down from a 50% reduction observed early in the trial. “That’s not all that good,” says Katherine Seley-Radtke, a medicinal chemist who develops antiviral drugs at the University of Maryland, Baltimore County. “It’s pretty lacklustre.” Eliav Barr, the senior vice president of global medical and scientific affairs at Merck, says that a reduction in hospitalizations would still be beneficial, especially in areas that are experiencing a surge in infections.
+
+Monoclonal antibody treatments, by contrast, reduce the risk of severe COVID-19 by up to 85%. But they are costly and need to be administered intravenously, so finding an effective oral antiviral for the disease has been a high priority for scientists around the world who want to be better able to treat high-risk patients in rural areas and under-resourced countries, Seley-Radtke says.
+
+Lowered expectations
+=(Merck’s initial study group included 762 people who received 4 pills of either the antiviral or a placebo twice a day, for 5 consecutive days, between May and early August. A second group included 646 people who received the same treatment between August and early October. All of the participants, nearly 80% of whom were located in Europe or Latin America, started the regimen within five days of experiencing COVID-19 symptoms.)= For each group, researchers tracked the participants and measured how many ended up in hospital or died because of COVID-19 complications. In the first group, participants’ rate of hospitalization or death dropped by half if they took molnupiravir rather than a placebo. But in the second group, there was almost no difference in outcome for those on the antiviral compared with those on the placebo.
+
+
+How antiviral pill molnupiravir shot ahead in the COVID drug hunt
+Nicholas Kartsonis, the senior vice-president of clinical research at Merck, told the FDA advisory committee on 30 November that the company couldn’t explain the starkly different results, which have not been peer reviewed. Some of the committee members pointed out that the highly transmissible Delta variant of the SARS-CoV-2 coronavirus had not yet become dominant globally during the first half of the trial, whereas it had by the second half. This might mean that molnupiravir isn’t as effective against Delta as it is for some other variants.
+
+According to Sankar Swaminathan, the division chief for infectious diseases at the University of Utah Health in Salt Lake City, it’s also possible that differences between the trial groups’ demographics or locations might have affected which participants were hospitalized or the quality of care they received. Swaminathan is a member of the FDA advisory committee that reviewed molnupiravir.
+
+The committee’s 13–10 decision to recommend the emergency use authorization is a far cry from the overwhelming approval expected after Merck announced its preliminary trial results. Panel members had a hard time deciding whether molnupiravir’s benefits outweigh its largely unknown risks.
+
+Weighing up the risks
+Although Merck reported similar rates of side effects for trial participants taking the antiviral as for those on the placebo, some researchers are worried that molnupiravir’s novel mechanism of action has the potential for long-term safety risks. The antiviral works by incorporating itself into the virus’s RNA, creating errors and hamstringing SARS-CoV-2’s ability to replicate.
+
+=(Intentionally introducing mutations into viral RNA might create a more dangerous version of SARS-CoV-2, critics say.)= In such a scenario, mutations could occur in the virus’s spike protein, which it uses to gain entry to human cells, making the virus more transmissible or able to evade vaccines. That will mainly be a concern, says Swaminathan, who voted against authorizing molnupiravir, if people don’t finish the full 5-day, 40-pill course of treatment, because some of the mutated virus might survive in a person’s body and then be transmitted to others.
+
+
+The race for antiviral drugs to beat COVID — and the next pandemic
+However, because most genetic mutations are either harmful viruses or don't affect their ability to function, some researchers argue that the scenario whereby a perfectly mutated version of SARS-CoV-2 survives the antiviral and becomes enhanced is unlikely — although not impossible. Kartsonis noted that Merck did not detect any remaining virus in trial participants after the full five-day course, but the company did not test the drug in immunocompromised people, who might have difficulty fully clearing the virus from their bodies, even with the antiviral’s help.
+
+Beyond risks to the wider community, the FDA advisory committee also discussed potential risks to the individual. Tests in laboratory dishes suggested that there might be a risk of molnupiravir creating mutations in human DNA, especially in quickly reproducing cells such as blood cells or spermatozoa, but tests in animals indicated that this risk is low. Nevertheless, many members of the advisory committee recommended that the agency either place serious warnings on molnupiravir or prevent children under 18 and pregnant people from receiving it until there are more data about its safety in these populations.
+
+“I don’t think you can ethically say it’s OK to give this drug in pregnancy,” said Janet Cragan, a medical officer at the US Centers for Disease Control and Prevention in Atlanta, Georgia, who voted at the advisory committee meeting. But, she added, “I’m not sure you can tell a pregnant woman who has COVID-19 that she can’t have the drug if she has decided that’s what she needs.”
+
+Hope remains
+With the confirmed global death toll from the coronavirus standing at more than 5 million people, public-health officials have been hoping antivirals such as molnupiravir could be deployed quickly worldwide to save lives — especially with the Omicron variant spreading rapidly.
+
+Although scientists are still scrambling to understand how Omicron affects COVID-19 vaccine and treatment efficacy, Swaminathan says that the variant was clearly weighing on the minds of the advisory committee during its meeting. He says that because of how molnupiravir works, theoretically it should be effective no matter which version of SARS-CoV-2 it is faced with, but the trial data on its effectiveness against Delta raises the possibility that this is not true. An antiviral that works against all versions of SARS-CoV-2 would be a boon, especially if the current monoclonal antibody treatments fail to work against Omicron or a future variant. In that situation, he says, “we would be severely limited in what we can do to prevent hospitalizations”.
+
+The United States is not the first country to consider authorizing the antiviral. =(On 4 November, the United Kingdom became the first to approve molnupiravir)=, and in mid-November Bangladesh’s Beximco Pharmaceuticals, based in Dhaka, started selling a generic version of the drug in that country.
+
+Given the questions over molnupiravir’s efficacy and potential risks, public-health officials are keen to find alternatives. In early November, Pfizer, based in New York City, announced initial results showing that its COVID-19 antiviral Paxlovid cut hospitalizations and death by 89%, but the full data have not yet been released or peer reviewed. Paxlovid’s mechanism of action differs from that of molnupiravir.
+
+Seley-Radtke says that despite the downgrading of the results for molnupiravir, she hopes that research on it and Paxlovid could still lead to effective drug cocktails that combine antivirals to kill SARS-CoV-2. “In addition to stopping the growth of the virus by using this multi-prong attack, you also slow the development of resistance,” she says. It is harder for a virus to develop resistance to a multi-drug combination than a single drug. Ultimately, a cocktail, she says, “is going to be the better answer”.
+
+doi: https://doi.org/10.1038/d41586-021-03667-0
+
