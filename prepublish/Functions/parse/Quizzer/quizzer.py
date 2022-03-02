@@ -6,6 +6,9 @@ data = """
 Crucial Mutation for Murine Suceptibility, SARS2[S] : N501
 Base-Length of SARS2 Genome : 29000
 Baltimore Class III : +ssRNA
+SARS2 Structural Proteins : [M,N,S,E]
+SARS2 Proteases : [Papain-like, 3C-like (Main)]
+
 """
 yml_dict = yaml.load(data, Loader=Loader)
 

@@ -2,4 +2,7 @@ sun : [ MI , 7C, 7P, EI, EP, 3 , N ]
 mon : [ MI , 7C, 7P, S , EI, EP, 3 , N ] 
 tue : [ MI , 7C, 7P, S , EI, EP, 3 , N ] 
 wed : [ MI , 7C, 7P, S , EI, EP, 3 , N ] 
-tu
+thu : [ MI , 7C, 7P, S , EI, EP, 3 , N ] 
+fri : [ MI , 7C, 7P, S , EI, EP, 3 , N ] 
+sat : [ MI , 7C, 7P, EI, EP, 3 , N ] 
+

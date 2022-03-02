@@ -43,4 +43,5 @@ df['movements'] = df['movements'].str.replace("(\*\w\w)","",regex=True)
 df
 # %%
 df.pivot(columns="composer",index="movements")
+
 # %%
