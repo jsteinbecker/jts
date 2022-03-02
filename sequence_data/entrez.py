@@ -1,8 +1,21 @@
-acc_num = "NC_045512.2"
-
+# %%
 from Bio import Entrez
 from Bio import SeqIO
 from Bio import Seq
+import pandas as pd
+
+class en_Seq:
+    def __init__(self,acc_id,file,db):
+        ent = pull_from_Entrez(acc_id, file, db)
+        path = "sequence_data/"+file+".gb"
+        self.seq = gb_to_Seq(path)
+        self.feat = get_seq_features(self.seq)
+        self.genes = get_seq_genes(self.seq)
+        #self.aa_qty = aa_quantities(self.seq.translate())
+        self.geneNames = get_gene_names(self.genes)
+        self.loc_start = int(self.genes[-2].location.start)
+        self.loc_end = int(sars2.genes[-2].location.end)
+        self.translation = self.seq[self.loc_start:self.loc_end].translate()
 
 def pull_from_Entrez (acc_id:str,filename:str,db:str):
     """
@@ -17,18 +30,16 @@ def pull_from_Entrez (acc_id:str,filename:str,db:str):
     file.write(rec)
     file.close()
 
-pull_from_Entrez(acc_num, "SARSCOV2refseq", db="nucleotide")
 
 def gb_to_Seq (gb_path):
     refseq = SeqIO.read(gb_path,"gb")
     return refseq
-mypath = "sequence_data/SARSCOV2refseq.gb"
-myseq = gb_to_Seq(mypath)
+
 
 def get_seq_features (seq):
     features = seq.features
     return features
-myseqfts = get_seq_features(myseq)
+
 
 def get_seq_genes (seq):
     features = get_seq_features(seq)
@@ -37,40 +48,66 @@ def get_seq_genes (seq):
         if f.type == "gene":
             genes.append(f)
     return genes
-mygenes = get_seq_genes(myseq)
 
-#spike
-genes[1]
-# tx spike
-spike = refseq.seq[21562:25384]
-len(spike)
-spikeAA = spike.translate()
 
-def aa_quantities ():
+def aa_quantities (aa_seq, sort=False):
     alphabet = "ACDEFGHIKLMNPQRSTVWY"
-    len(alphabet)
+    df_a = []
+    df_count = []
     for x in alphabet:
-        print(x,round(spikeAA.count(x)/len(spike)*100,3),"%")
-aa_quantities()
+        df_a.append(x)
+        df_count.append(round(aa_seq.count(x)/len(aa_seq)*100,3))
+    df = pd.Series(perc,index=aa_resi)
+    if sort == True:
+        df = df.sort_values()
+    return df
 
-def nt_quantities ():
+
+def nt_quantities (nt_seq):
     print ("NUCLEOTIDE COMPOSITION:")
     alphabet = "ACGT"
+    nt = []
+    perc = []
     for x in alphabet:
-        print(x,round(spike.count(x)/len(spike)*100,2),"%")
-nt_quantities()
+        nt.append(x)
+        perc.append(round(nt_seq.count(x)/len(spike)*100,2))
+    df = pd.Series(perc,index=nt)
+    return df
 
 
-def get_gene_names ():
+def get_gene_names (genes):
     gene_names = []
     for f in genes:
         n = f.qualifiers['gene']
         gene_names.append(n)
     return gene_names
-get_gene_names()
 
-prod = []
-for f in features:
-    if f.qualifiers == ['product']:
-        prod.append(f)
-prod
+
+# prod = []
+# for f in features:
+#     if f.qualifiers == ['product']:
+#         prod.append(f)
+# prod
+
+# %%
+acc_num = "NC_045512.2"
+pull_from_Entrez(acc_num, "SARSCOV2refseq", db="nucleotide")
+mypath = "sequence_data/SARSCOV2refseq.gb"
+myseq = gb_to_Seq(mypath)
+myseqfts = get_seq_features(myseq)
+mygenes = get_seq_genes(myseq)
+
+#spike
+mygenes[1]
+# tx spike
+spike = myseq.seq[21562:25384]
+len(spike)
+spikeAA = spike.translate()
+aa_quantities(spikeAA,sort=True)
+nt_quantities(spike)
+
+# %%
+sars2 = en_Seq(acc_num, "SARSCOV2refseq", db="nucleotide")
+sars2.translation.seq
+sars2.geneNames
+# %%
