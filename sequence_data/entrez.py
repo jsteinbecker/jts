@@ -29,18 +29,12 @@ def pull_from_Entrez (acc_id:str,filename:str,db:str):
     rec = handle.read()
     file.write(rec)
     file.close()
-
-
 def gb_to_Seq (gb_path):
     refseq = SeqIO.read(gb_path,"gb")
     return refseq
-
-
 def get_seq_features (seq):
     features = seq.features
     return features
-
-
 def get_seq_genes (seq):
     features = get_seq_features(seq)
     genes = []
@@ -48,8 +42,6 @@ def get_seq_genes (seq):
         if f.type == "gene":
             genes.append(f)
     return genes
-
-
 def aa_quantities (aa_seq, sort=False):
     alphabet = "ACDEFGHIKLMNPQRSTVWY"
     df_a = []
@@ -61,8 +53,6 @@ def aa_quantities (aa_seq, sort=False):
     if sort == True:
         df = df.sort_values()
     return df
-
-
 def nt_quantities (nt_seq):
     print ("NUCLEOTIDE COMPOSITION:")
     alphabet = "ACGT"
@@ -73,8 +63,6 @@ def nt_quantities (nt_seq):
         perc.append(round(nt_seq.count(x)/len(spike)*100,2))
     df = pd.Series(perc,index=nt)
     return df
-
-
 def get_gene_names (genes):
     gene_names = []
     for f in genes:
