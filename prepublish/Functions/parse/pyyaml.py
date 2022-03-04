@@ -42,8 +42,10 @@ comments:
     Billsmer @ 338-4338.
 """
 
+def main():
+  y = yaml.load(d,Loader=Loader)
+  print(yaml.dump(y['tax'],Dumper=Dumper) )
+  y['comments']
 
-y = yaml.load(d,Loader=Loader)
-print(yaml.dump(y['tax'],Dumper=Dumper) )
-y['comments']
-
+if __name__ == "__main__":
+  main()

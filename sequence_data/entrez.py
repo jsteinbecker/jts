@@ -17,7 +17,7 @@ class en_Seq:
         self.loc_end = int(sars2.genes[-2].location.end)
         self.translation = self.seq[self.loc_start:self.loc_end].translate()
 
-def pull_from_Entrez (acc_id:str,filename:str,db:str):
+def pull_from_Entrez (acc_id:str, filename:str, db:str):
     """
     acc_id:     ACCESSION NUMBER
     filename:   LOCATION FOR GENBANK FILE TO POPULATE
