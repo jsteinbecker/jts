@@ -1,0 +1,41 @@
+# Oboe Reeds
+
+Reed : 2A
+  date_made : 2022-02-02
+  color : BLUE 
+  init_len : 71
+  staple : E
+  perf :
+    - 02-05 : [1,2,1]
+    - 02-17 : [3,2,1]
+    - 03-04 : [0,0,0]
+  died: 2022-03-04 , Cracked center
+  
+Reed : 2B
+  date_made : 2022-02-15
+  color : BLUE
+  note : Short wind
+  init_len : 72
+  staple : E
+  perf :
+    - 02-17 : [1,1,1]
+    - 02-21 : [5,5,6]
+    - 03-03 : [5,6,5]
+    - 03-04 : [8,6,7]
+
+Reed : 2C
+  date_made :
+  color : BLUE
+  note : Long wind
+  init_len : 69.75
+  staple : E
+  perf : 
+    - 02-28 : [1,2,3]
+    - 03-04 : [bflat,easy,wild]
+     
+  
+Reed :
+  date_made :
+  color :
+  init_len : 
+  staple :
