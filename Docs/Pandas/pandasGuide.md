@@ -358,7 +358,7 @@ There are 2 explicit slicing methods, with a third general case
 2.  Label-oriented (Non-Python slicing style : inclusive of end)
 
 3.  General (Either slicing style : depends on if the slice contains labels or positions)
-
+```
 In [43]: df.loc["bar":"kar"]  # Label
 Out[43]:
  AAA  BBB  CCC
@@ -380,7 +380,7 @@ Out[45]:
 bar    5   20   50
 boo    6   30  -30
 kar    7   40  -50
-
+```
 Ambiguity arises when an index consists of integers with a non-zero start or non-unit increment.
 
 In [46]: data = {"AAA": [4, 5, 6, 7], "BBB": [10, 20, 30, 40], "CCC": [100, 50, -30, -50]}

@@ -7,6 +7,7 @@ Crucial Mutation for Murine Suceptibility, SARS2[S] : N501
 Base-Length of SARS2 Genome : 29000
 Baltimore Class III : +ssRNA
 """
+
 yml_dict = yaml.load(data, Loader=Loader)
 
 question_list = list(yml_dict)

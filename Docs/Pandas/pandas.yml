@@ -1,6 +1,9 @@
-DROP COLUMN : df = df.drop('col_name', 1)
+DROP COLUMN : | 
+    df = df.drop(
+         'col_name', 1)
  
-NEW COLUMN (oldcol + calc) :
-df['newcol'] = df['oldcol'] * Expressions
+NEW COLUMN (oldcol + calc) : 
+         > df['newcol'] = 
+         > df['oldcol'] * Expressions
 
 FILTER BY COL VALUE : filterdf = df [df ['col'] == value]

@@ -1,16 +1,24 @@
 
 
 _Filter DF_:
+
 `filterdf = df [df ['col'] == value]`
 
+***
+
 _New Column from Old_:
+
 `df['newcol'] = df['oldcol'] *Expressions`
+
 > `df['partial year'] = df['year'] + (df['week']/ 52)`
 
+***
+
 _If-then Column_:
+
 `df.loc[df.AAA >= 5, "BBB"] = -1`
-<<<<<<< HEAD
-```
+
+```py
    AAA  BBB  CCC
 0    4   10  100
 1    5   -1   50
@@ -18,8 +26,11 @@ _If-then Column_:
 3    7   -1  -50
 ```
 
+***
+
 # Sort By
-df.sort_values(by=("Labs", "II"), ascending=False)
+
+`df.sort_values(by=("Labs", "II"), ascending=False)`
 
 ```
 Out[99]: 
@@ -33,8 +44,10 @@ Out[99]:
 ```
 
 
+***
 
 _Sorting_:
+
 `df.sort_values(by=("Labs", "II"), ascending=False)
 
 ```

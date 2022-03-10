@@ -3,7 +3,7 @@
 - columns
 - values
 
-```
+```python
 Out[3]: 
 variable           A         B         C         D
 date                                              
