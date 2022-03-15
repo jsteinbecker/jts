@@ -3,13 +3,19 @@ program_title = """
 DATE BACTRIM 
 -----------------------------------------------
 (SULFAMETHOXAZOLE/TRIMETHOPRIM) 
-FOR IV USE IN 
-DEXTROSE 5% WATER
+       - - - - - - - - -
+FOR IV USE IN DEXTROSE 5% WATER
 ===============================================
 """
 
 
 def date_bactrim(drugmL,bagmL):
+   """\
+   drugmL : ML of Bactim Solution
+   bagmL  : ML of D5W Container for Dilution
+   --------
+   returns: (Conc, Rx, BUD)
+   """
    drug = drugmL
    bag = bagmL
 
@@ -19,8 +25,11 @@ def date_bactrim(drugmL,bagmL):
 
    return str(conc) + "mg TMP/mL"
 
-single_line = "-----------------------------------------------"
-double_line = "==============================================="
+
+
+single_line = "---------------------------------------------"
+double_line = "============================================="
+
 
 
 def main():
