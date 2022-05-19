@@ -21,6 +21,8 @@ propyne : CC#C
 propanol : OCCC
 ```
 
+$\tt \huge \frac { \beta_5 }{ r^2 }$
+
 | Molecule           | SMILES_data                               |
 | ------------------ | ----------------------------------------- |
 | nicodozole         | COC(=O)NC1=NC2=CC=C(C(=O)C3=CC=CS3)C=C2N1 |
