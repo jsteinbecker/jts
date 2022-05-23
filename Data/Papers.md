@@ -4,12 +4,11 @@
 The Origin of SARS CoV2: A Critical Review| Andersen et al|Science^2021^
 
 ## Part II
-<>
+
 a|b|c
 -|-|-
 C|
 s| |3
 I|
-<>
 
-==.gp120.== glycoprotein 120kDa
+`gp120` glycoprotein 120kDa
